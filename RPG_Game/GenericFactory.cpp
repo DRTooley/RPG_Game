@@ -32,7 +32,7 @@ GenericFactory::GenericFactory()
 
 	vector<XMLSerializable*> vObjects;
 
-    parseXML(mConstructors, "world.xml", vObjects);
+    parseXML(mConstructors, "./XML/world.xml", vObjects);
 
 	m_vCreatures.constructVector(vObjects);
 	m_vItems.constructVector(vObjects);

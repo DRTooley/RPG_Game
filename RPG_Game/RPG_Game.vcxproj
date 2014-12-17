@@ -39,7 +39,7 @@
     <ClCompile Include="Equipment.cpp" />
     <ClCompile Include="GenericFactory.cpp" />
     <ClCompile Include="Item.cpp" />
-    <ClCompile Include="PA3.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="parser.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Room.cpp" />
