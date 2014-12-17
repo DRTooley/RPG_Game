@@ -76,6 +76,11 @@ void parseXML(map<string, function<XMLSerializable * ()>> & mConstructors, strin
 {
 	ifstream input;
 	input.open(sFilename);
+	if (!input)
+	{
+		cout << "XML file does not exist!" << endl;
+		return;
+	}
 
 	while( input.get() != '?' );
 	while( input.get() != '?' );
