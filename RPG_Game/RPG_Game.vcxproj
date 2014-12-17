@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Armor.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Consumable.h" />
     <ClInclude Include="Creature.h" />
@@ -38,10 +39,6 @@
     <ClCompile Include="Equipment.cpp" />
     <ClCompile Include="GenericFactory.cpp" />
     <ClCompile Include="Item.cpp" />
-    <ClCompile Include="la5.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="PA2create.cpp" />
-    <ClCompile Include="PA2test.cpp" />
     <ClCompile Include="PA3.cpp" />
     <ClCompile Include="parser.cpp" />
     <ClCompile Include="Player.cpp" />
